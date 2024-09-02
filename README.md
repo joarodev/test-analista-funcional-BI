@@ -1,4 +1,4 @@
-# Sales Management System - Test Técnico ADEM
+# Análista funcional BI - Test Técnico.
 
 Este proyecto consiste en la creación de un sistema de gestión de ventas que abarca la administración de usuarios, clientes, productos, órdenes de venta, facturación y pagos. Incluye una base de datos operativa y una réplica simulada como "data warehouse" para propósitos de análisis.
 
