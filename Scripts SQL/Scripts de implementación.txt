@@ -1,0 +1,20 @@
+Para una correcta importación de la base de datos e inserción de datos es importante ejecutar los script de la carpeta en el siguiente orden:
+
+1. 1_DB_create.sql: Dropea en el caso de existir y crea la base de datos "sales_management_system".
+
+2. 2_DB_tables.sql: Dropea en el caso de existir y crea las tablas "user", "customer", "sale_order", "payment", "invoice", "category", "product". 
+
+3. 3_DB_insert_data.sql: Inserta los datos ficticios generados por ChatGPT dentro de las tablas.
+
+4. 4_DB_views.sql: Genera las vistas de las consultas JOIN de los requerimientos solicitados en el test técnico.
+
+5. 5_DB_data_warehouse.sql: Crea la base de datos replica simulando un data warehouse y sus respectivas tablas.
+
+6. 6_DB_insert_data_warehouse.sql: Inserta los datos de las vistas de la base de datos sales_management_system en las tablas del data warehouse.
+
+7_DB_procedures.sql: Procedimientos de actualización de vistas e inserción en las tablas del data warehouse.
+
+
+opcional:
+
+complete_script.sql: Ejecuta todas las queries en un solo script.
